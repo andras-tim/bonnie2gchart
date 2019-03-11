@@ -97,6 +97,8 @@ function drawChart() {
 	});
 	var options = {
 		title: chartTypes[type]['title'],
+		chartArea: {height: '90%'},
+		bar: {groupWidth: '75%'},
 		vAxis: {title: chartTypes[type]['name'],
 		        titleTextStyle: {color: 'red'}}
 	};
